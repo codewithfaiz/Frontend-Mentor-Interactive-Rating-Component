@@ -1,6 +1,6 @@
 # Frontend Mentor - Interactive rating component
 
-![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Interactive rating component coding challenge](.https://github.com/codewithfaiz/Frontend-Mentor-Interactive-Rating-Component/blob/main/desktop-preview.jpg?raw=true)
 
 ## Welcome! 👋
 
