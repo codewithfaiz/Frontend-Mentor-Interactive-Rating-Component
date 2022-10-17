@@ -1,0 +1,183 @@
+
+/*===============================
+defining the variables
+=================================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+:root{
+--White: hsl(0, 0%, 100%);
+--Light_Grey: hsl(217, 12%, 63%);
+--Medium_Grey: hsl(216, 12%, 54%);
+--Dark_Blue: hsl(213, 19%, 18%);
+--Very_Dark_Blue: hsl(216, 12%, 8%);
+---Orange: hsl(25, 97%, 53%);
+}
+
+/*===============================
+Deafult and reset 
+=================================*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*====================================
+styling the body of the HTML document 
+=======================================*/
+
+body{
+background-color: var(--Very_Dark_Blue);
+height: 100vh;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: 'Overpass', sans-serif;
+}
+
+/*===================================
+styling the rating card state start 
+=====================================*/
+
+.rating_card_start{
+    display: inline-block;
+    max-width: 400px;
+    background-color: var(--Dark_Blue);
+    border-radius: 20px; 
+
+}
+
+.icon_start{
+    display: inline-flex;
+    margin: 20px;
+    padding: 5px;
+    background-color: var(--Very_Dark_Blue);
+    border-radius: 50%;
+}
+
+/*===================================
+styling content of rating card
+=====================================*/
+
+.content {
+    margin: 0px 20px;
+}
+.content  h1 {
+    color: var(--White);
+}
+.content p {
+    font-size: 15px;
+    margin-top: 10px;
+    color: var(--Light_Grey);   
+}
+
+/*===================================
+styling rating buttons
+=====================================*/
+
+.rating{
+    display: flex;
+    padding: 20px 20px;
+    gap: 20px;
+}
+.rating{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rating button{ 
+background-color: var(--Very_Dark_Blue);
+  display: flex;
+  align-items: center;
+  height: 45px;
+  padding: 20px; 
+  border: none;
+  border-radius: 50%;;
+  color: var(--White);
+}
+
+/*===================================
+styling submit button
+=====================================*/
+
+.submit{
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:25px ;
+}
+.submit button{
+font-size: larger;
+width: 320px;
+height: 40px;
+border: none;
+border-radius: 410px;
+background-color: var(---Orange);
+letter-spacing: 2px;
+color: var(--White);
+}
+.submit button:hover{
+    background-color: var(--White);
+    color: var(---Orange);
+}
+
+/*===============================
+styling the rating card state end
+=================================*/
+
+ .rating_card_end {
+    padding: 20px;
+    width: 400px;
+    background: var(--Dark_Blue);
+    border-radius: 20px;
+    display:none;
+}
+
+/*===============================
+styling Thank you image
+=================================*/
+
+.thank_you_image{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/*===============================
+styling the rating score
+=================================*/
+
+.result {
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 90px;
+    background-color: var(--Very_Dark_Blue);
+    border-radius: 20px;
+    padding: 5px;
+    color: var(---Orange);
+}
+
+/*===============================
+styling thank you content
+=================================*/
+
+.rating_card_end h2{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 10px;
+    color: var(--White);
+    letter-spacing: 1px;
+}
+.rating_card_end p {
+    text-align: center;
+    font-size: 15px;
+    color: var(--Light_Grey);
+}
+/********************END**************************/
